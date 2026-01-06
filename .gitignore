@@ -1,0 +1,42 @@
+﻿# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# --- Virtual envs ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Conda ---
+conda-meta/
+*.conda
+*.lock
+
+# --- Test/coverage ---
+.pytest_cache/
+.coverage
+htmlcov/
+.coverage.*
+pytestdebug.log
+
+# --- OS / Editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Project outputs (keep placeholders only) ---
+data/curated/*
+!data/curated/.gitkeep
+!data/curated/forecast_placeholder.csv
+
+# Optional: ignore raw input files if you will add real company data later
+data/raw/*
+!data/raw/.gitkeep
